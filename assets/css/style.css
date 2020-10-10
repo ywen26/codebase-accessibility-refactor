@@ -12,6 +12,7 @@ p {
     font-size: 16px;
 }
 
+/* Change container from div to header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,12 +25,12 @@ header h1 {
     font-size: 48px;
 }
 
-/* This is an id and no need to add .header h1 */
+/* Style the color "seo" from header 1 */
 #seo {
     color: #d9dcd6;
 }
 
-/* adjust the fussy selectors to more simple */
+/* The four slectors below to adjust and style the unorder list to in-line links option */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -52,6 +53,7 @@ a {
     text-decoration: none;
 }
 
+/* Insert a background picture and style it, change selector type from class to id  */
 #background-picture {
     height: 800px;
     width: 100%;
@@ -61,12 +63,24 @@ a {
     background-position: center;
 }
 
-section {
+/* change container from div to main */
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Simplify the class names of all divs and combine them together since they have same style */
 .content {
     margin-bottom: 20px;
     padding: 50px;
@@ -85,16 +99,7 @@ section {
     font-size: 36px;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* change container from div to aside */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -106,7 +111,7 @@ aside {
     background-color: #2589bd;
 }
 
-/* combine all the selectors with same elements */
+/* Simplify the class names of all divs and combine them together since they have same style */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
@@ -123,6 +128,7 @@ aside {
     max-width: 150px;
 }
 
+/* Change container from div to footer */
 footer {
     padding: 30px;
     clear: both;

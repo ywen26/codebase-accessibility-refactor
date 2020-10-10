@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- Change title-->
+    <!-- Change title -->
     <title>Optimize Web Accessibility</title>
 </head>
 
 <body>
-    <!-- Change the <div> tag to <header> tag / The only header and no need class-->
+    <!-- Change the <div> tag to <header> tag / The only header and no need to use class -->
     <header>
         <h1>Hori<span id="seo">seo</span>n</h1>
         <nav>
@@ -27,12 +27,13 @@
         </nav>
     </header>
 
-    <div id="background-picture"></div>
+    <!-- Add aria-label to add alt attribute text -->
+    <div id="background-picture" aria-label="work together improving optimization"></div>
 
     <!-- Change the <div> tag to <section> tag / The only <section> and no need to use class -->
-    <section>
+    <main>
+        <!-- fix the link of search engine optimization, simplify class name, and add alt attribute text to images -->
         <div id="search-engine-optimization" class="content">
-            <!-- Add alt attribute text for image -->
             <img src="./assets/images/search-engine-optimization.jpg" alt="SEO" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -61,10 +62,11 @@
                 and increase your lead generation.
             </p>
         </div>
-    </section>
+    </main>
 
-    <!-- Change <div> tag to <aside> tag / The only <aside> and no need to use class-->
+    <!-- Change <div> tag to <aside> tag / The only <aside> and no need to use class -->
     <aside>
+        <!-- Simplify class name and add alt attribute text to images-->
         <div class="benefit">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="Lead Generation" />
