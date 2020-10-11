@@ -1,4 +1,4 @@
-# Codebase-Accessibility-Refactor
+# Codebase Accessibility Refactor
 
 The purpose of this project is to improve the accessbility of source code for Horiseon web application so that to meet the acceptance criteria. Adjustment has been applied to both html and CSS file, and below are the adjustment details.
 
