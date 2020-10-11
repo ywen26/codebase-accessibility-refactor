@@ -19,5 +19,12 @@ The purpose of this project is to improve the accessbility of source code for Ho
 * Adjust the order of selectors so that it follows the structure order of html file
 * Add some comments to explain how the elements are styled
 
-! [image of web application]
-(./images/web-application.png)
+## Web application appearance and functionality
+
+The web application resembles after adjustment:
+![image of web application](./assets/images/web-application.png)
+
+## URL source
+Feel free to check the web application: [https://ywen26.github.io/unit-1-refactor/](https://ywen26.github.io/unit-1-refactor/)
+
+
